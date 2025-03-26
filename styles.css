@@ -3,9 +3,9 @@
 :root {
     --cor-principal: #6855DC ;
     --cor1: #8970fc ;
-    --cor2: #a98dff ;
-    --cor3: #caaaff ;
-    --cor4: #ebc8ff ;
+    --cor2: #7d3cdf  ;
+    --cor3: #9f75dd ;
+    --cor4: #a6a6a6;
     --preto : #000000;
     --branco :#FFFFFF;
 }
@@ -16,14 +16,24 @@
 
 #contato {
     background: var(--cor-principal);
-blackground-size: cover;
-padding: 4rem 0;
+    background-size: cover;
+    padding: 4rem 0;
 }
 
-.fomulário{
-blackground-color:var(--branco);
-padding: 2rem;
-border-radius: 10px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-font-weight: bold;
+.formulario{
+    background-color: var(--branco);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: var(--cor3);
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: var(--cor2);
 }
