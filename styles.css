@@ -13,6 +13,37 @@
     body{
         font-size: 1rem;
          font-family: 'poppins';
+    }
+
+section{
+    padding-bottom: 5rem;
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--preto);
+}
+
+#Rock {
+position: relative;
+padding: top 5rem;
+margin-top: 3rem ;
+background:var(--cor2)
+ background-size: 180px 180px; 
+}
+
+#Rock .container{
+displaya: flex;
+align-items: center;
+position: relative;
+z-index: 1;
+}
+
+
+
+
+
+
+
 
 #contato {
     background: var(--cor-principal);
