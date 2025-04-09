@@ -33,27 +33,26 @@ blackground-image: url(img/10106764495_dc61172ece_b.jpg);
 blackground-size: cover;
 background-position: right;
 border-radius: 80px;
-
+width: 100%;
+height: 606px;
+padding: 40px;
+margin: 0 auto;
 }
 
+.esquerda-conteudo {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap:1rem;
+}
 
-
-
-.esquerda-conteudo {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.botao-inicio {
+background-color: var(#9f75dd);
+border-radius: 30px;
+border: none;
+width: 14em;
+height: 3em;
+align-content: center;
 .display-4 {
     text-shadow: -5px 5px var(--preto);
 }
