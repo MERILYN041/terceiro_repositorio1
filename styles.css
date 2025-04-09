@@ -19,6 +19,41 @@ section{
     padding-bottom: 5rem;
 }
 
+header {
+    background-color: var(--preto);
+}
+
+.nav-link {
+    color:var(--cor3);
+    font-weight 600;
+}
+
+.inicio-fundo {
+blackground-image: url(img/10106764495_dc61172ece_b.jpg);
+blackground-size: cover;
+background-position: right;
+border-radius: 80px;
+
+}
+
+
+
+
+.esquerda-conteudo {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .display-4 {
     text-shadow: -5px 5px var(--preto);
 }
