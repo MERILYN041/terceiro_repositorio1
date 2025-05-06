@@ -69,8 +69,9 @@ background:var(--cor2)
 displaya: flex;
 align-items: center;
 position: relative;
-z-index: 1;
+z-index: 1;  /* Garante que o conteúdo fica acima das imagens de backgronde se houverem */
 }
+
 
 
 
@@ -101,4 +102,30 @@ z-index: 1;
 
 .form-control {
     background-color: var(--cor2);
+}
+
+.menu-acessebilidade {
+positon: fixed;
+top: 2rem;
+right: 20px; ;
+z-index: 1000;
+}
+
+.rotacao-botao {
+transform: rotate(-90deg);
+transform-origin: rightt= center;
+}
+
+.opcoes-acessibilidade {
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+margin-bottom: 5px;
+}
+
+.apresenta-lista {
+    display: none;
 }
