@@ -72,14 +72,6 @@ position: relative;
 z-index: 1;  /* Garante que o conteúdo fica acima das imagens de backgronde se houverem */
 }
 
-
-
-
-
-
-
-
-
 #contato {
     background: var(--cor-principal);
     background-size: cover;
